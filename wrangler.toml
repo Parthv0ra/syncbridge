@@ -1,7 +1,5 @@
-[build]
-command = "npm install && npm run build"
-destination = "dist/client"
+name = "syncbridge"
+compatibility_date = "2026-05-30"
 
-[build.environment]
-NODE_VERSION = "20"
-NODE_ENV = "production"
+[assets]
+directory = "./dist/client"
