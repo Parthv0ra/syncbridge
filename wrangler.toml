@@ -1,7 +1,7 @@
 [build]
-command = "npm run build"
-destination = ".output/public"
+command = "npm install && npm run build"
+destination = "dist/client"
 
 [build.environment]
 NODE_VERSION = "20"
-NPM_FLAGS = "--legacy-peer-deps"
+NODE_ENV = "production"
