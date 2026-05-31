@@ -1,5 +1,9 @@
 name = "syncbridge"
 compatibility_date = "2026-05-30"
+compatibility_flags = ["nodejs_compat"]
+main = "./dist/server/index.mjs"
+no_bundle = true
 
 [assets]
 directory = "./dist/client"
+binding = "ASSETS"
