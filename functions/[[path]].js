@@ -1,1 +1,1 @@
-export { default as onRequest } from '../server/index.mjs';
+export { default as onRequest } from '../dist/server/index.mjs';
