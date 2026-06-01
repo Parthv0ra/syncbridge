@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
+    "build:pages": "vite build && cp _routes.json dist/ && cp -r functions dist/",
     "deploy": "npm run build && wrangler deploy",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
